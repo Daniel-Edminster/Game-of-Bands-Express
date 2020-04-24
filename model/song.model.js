@@ -15,19 +15,19 @@ const SongSchema = new Schema({
 	},
 	lyricsheet: {
 		type: String,
-		required: [true, 'A Lyricsheet is required']
+//		required: [true, 'A Lyricsheet is required']
 	},
 	music: {
 		type: String,
-		required: [true, 'Song musician is required']
+//		required: [true, 'Song musician is required']
 	},
 	lyrics: {
 		type: String,
-		required: [true, 'Song lyricist is required']
+//		required: [true, 'Song lyricist is required']
 	},
 	vocals: {
 		type: String,
-		required: [true, 'Song vocalist is required']
+//		required: [true, 'Song vocalist is required']
 	},
 	votes: {
 		type: Number,
