@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "redis-server &",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "daniel-edminster",
